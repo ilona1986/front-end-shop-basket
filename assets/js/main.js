@@ -67,7 +67,7 @@ const btnClickHandler = (e) => {
   const interval = 2000;
 
   if (target && target.matches('.item-actions__cart')) {
-    if (basketContainer !== null) eraseBasket();
+    if (basketContainer !== null) clearBasket();
 
     incrementCounter();
 
